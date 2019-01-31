@@ -1,0 +1,66 @@
+@media only screen and (max-width: 600px) {
+
+    main section.left-to-right:nth-child(3),form,body > main > section:nth-child(3) {
+        width: 600px;
+    }
+    body > main > section:nth-child(2) > article:nth-child(1) > button {
+        display: none;
+    }
+    body > main > section:nth-child(1) > article {
+        padding: 0 30px;
+        border-radius: 17%;
+        text-align: left;
+        width: 467px;
+        margin-bottom: 2.5rem;
+    }
+    body > main > section:nth-child(1) > article > button {
+        display: none;
+    }
+    body > main > section:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    .left-to-right:first-child {
+        height: auto;
+        padding: 60px;
+    }
+    body > main > section:nth-child(1) > article > header > h1,
+    body > main > section:nth-child(3) > article > header > h1,
+    body > main > section:nth-child(2) > article:nth-child(1) > header > h1 {
+        font-size: 2rem;
+    }
+    body > main > section:nth-child(2){
+        flex-direction: column;
+    }
+    body > main > section:nth-child(2) > article:nth-child(2) > img {
+        width: 100%;
+    }
+    body > main > section:nth-child(3) > article {
+        border-radius: 15%;
+        padding: 0;
+        margin: auto;
+    }
+    body > main > section:nth-child(3) > article > button {
+        display: none;
+    }
+    body > main > section:nth-child(3) > article > p {
+        padding: 0 2rem;
+    }
+    body > main > section:nth-child(4) > article:nth-child(1) {
+        text-align: center;
+        margin: 0;
+    }
+    section.left-to-right:nth-child(3), form, body > main > section:nth-child(3) {
+        width: 25rem !important;
+    }
+    body > main > section:nth-child(4) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #name,#email,#message {
+        width: 100%;
+    }
+}
